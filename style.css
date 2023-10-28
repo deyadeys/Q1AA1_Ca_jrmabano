@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Oswald:wght@600&family=Oswald:wght@600&family=Pacifico&family=Rowdies:wght@300;400&family=Rowdies:wght@300;400&display=swap');*{
+    
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s;
+}
+div.navbar div{
+    margin: 5px;
+}
+.navb{
+    border: 1px solid #ffb0f2;
+    background-color: #ff0080;
+    padding: 2px;
+    width: 100%;
+    height: 70px;
+}
+#home{
+    background-color: hsl(335, 100%, 26%);
+}
+#home a {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#albums{
+    background-color: hsl(335, 100%, 26%);
+    margin-right: 20px;
+}
+#albums a{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.links {
+    border: 1px solid rgb(255, 159, 159);
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s;
+    padding: 5px;
+    border-radius: 10px;
+}
+.links:hover{
+    transition: .3s;
+    font-size: larger;
+    padding: 6px;
+}
+#linkss{
+    text-align: right;
+    float: right;
+    margin-top: 25px;
+}
+.links a {
+    text-decoration: none;
+}
+#logo{
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+#logo img{
+    border: 2px solid rgb(255, 204, 204);
+    height: 50px;
+    width: 45px;
+    border-radius: 360px;
+}
+.logo h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    
+}
+.footer{
+    background-color: #ff0080;
+    position: fixed;
+    bottom: 0%;
+    padding: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+#copyright{
+    position: fixed;
+    bottom: 19px;
+    left: 20px;
+    color: white;
+    font-style: italic;
+    font-family: cursive;
+    font-size: smaller;
+}
+#socmed img{
+    width: 30px;
+}
+#facebook:hover, #insta:hover, #twitter:hover{
+    opacity: 1;
+    transition: .4s;
+}
+#insta, #twitter, #facebook{
+    padding-right: 5px;
+    float: right;
+    opacity: 0.7;
+    transition: .4s;
+    margin-right: 5px;
+}
+.b{
+    background-image: url('images/bground2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 600px;
+}
+.btext{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+.btext h1{
+    font-size: 3.0em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #d886d8;
+    text-shadow: -2px 2px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+    transition: 2s;
+}
+.btext h1 span{
+    font-family: 'Pacifico';
+    font-size: larger;
+    font-weight: lighter;
+    color: #ff0077;
+    text-shadow: -2px 2px 0 #ffcaca,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+}
+.btext p{
+    margin-top: 10px;
+    color: #ff8fdd;
+    font-family: 'Poppins';
+    font-size: larger;
+    text-shadow: -1px 1px 0 #1d1302,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+}
+.btext a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-shadow: -1px 1px 0 #000000,1px 1px 0 #000000,1px -1px 0 #000000,-1px -1px 0 #000000;
+    background-color: #380326;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1em;
+    font-weight: bold;
+    transition: .4s;
+}
+#blink:hover{
+    transition: .4s;
+    font-size: large;
+    padding: 6px;
+}
+body{
+    background-color: #ffffff;
+}
+.albums{
+    margin: 10px;
+    margin-top: 150px;
+    text-align: center; 
+    align-content: center;
+}
+.albums h1{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    top: 13%;
+    left: 3%;
+}
+#r1 img, #r2 img{
+    margin: 30px;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 11%;
+    align-content: center;
+}
+
+
